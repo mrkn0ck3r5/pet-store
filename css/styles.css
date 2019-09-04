@@ -1,4 +1,132 @@
-h1{
-    font-family: 'Oswald', sans-serif;
-    color: blue;
+/* Navbar */
+
+h3{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-size: 2.75em;
+}
+.navbar-text{
+    color: #A19B4F;
+}
+.col{
+    display: inline;
+}
+
+.col1{
+    display: inline;
+    border-left: 1px solid black;
+}
+
+.pet-logo{
+    width: 10%;
+}
+/* found through the inspector */
+.nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
+    background-color: #EAE3D0;
+    color: #A19B4F;
+    border: 1px solid #a19b4f;
+
+}
+/* found through the inspector */
+.nav-pills li.not-active a, .nav-pills li.not-active a:focus, .nav-pills li.not-active a:hover{
+    background-color: white;
+    color: #A19B4F;
+    border: 1px solid #a19b4f;
+     
+}
+
+
+
+ /* Jumbotron */
+ .jumbotron{
+     background-image: url(/img/hero.jpg);
+     background-size: cover;
+     height: 33em;
+ }
+
+ .jumbo-text{
+    font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     color: white;
+     text-align: center;
+     font-size: 1.75em;
+     text-decoration: uppercase;
+ }
+
+ /* Featured & Services */
+ .product-img{
+     width: 30%;
+     display: block;
+     margin: 0 auto; 
+     float: left; 
+     padding-right: 20px;
+ }
+
+
+ .feature-container{
+     display: inline-block;
+     justify-content: center;
+ }
+
+.btn{
+    color: #a19b4f;
+}
+
+.feature-container .btn{
+    border: 1px solid #78743b;
+}
+
+h4{
+    display: inline;
+}
+
+.info{
+margin: 20px;
+
+}
+.services-containers .btn{
+    border: 1px solid #78743b;
+    background-color: #EAE3d0;
+}
+
+ /* Footer */
+.footer{
+    background-color: #eae3d0;
+    height: 12em;
+    padding-top: 3em;
+    margin-top: 5px;
+}
+
+.footer .pet-logo{
+    width: 35%;
+}
+
+.fab {
+    font-size: 2em;
+}
+
+.social-media{
+    margin: 0 auto; 
+}
+
+.copyright{
+    padding-top: 10px;
+    float: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.pet-logo-footer{
+    width: 40%;
+    margin: 0px 75px;
+}
+
+.product-img1{
+    width: 50%;
+    float: left; 
+}
+
+.product-img2{
+    height: 124px;
+    float: left; 
 }
